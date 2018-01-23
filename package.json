@@ -1,6 +1,6 @@
 {
-  "name": "node-vk-bot-api",
-  "version": "1.2.0",
+  "name": "botact-longpoll-micro",
+  "version": "2.0.0",
   "description": "API for VK bots on long poll.",
   "main": "index.js",
   "scripts": {
@@ -11,23 +11,18 @@
     "type": "git",
     "url": "git+https://github.com/bifot/node-vk-bot-api.git"
   },
+  "contributors": [
+    {
+      "name": "Antosik",
+      "url": "https://github.com/Antosik"
+    }
+  ],
   "keywords": [
     "vk",
-    "bots",
-    "api",
-    "vkontakte",
-    "bot",
-    "vk",
-    "api",
-    "longpoll",
     "vk-api",
-    "vk-app",
-    "vk-bot",
-    "vkbot",
-    "vkontakte-sdk",
-    "vkontakte-api",
-    "vkontakte-client",
-    "vkapi"
+    "bot",
+    "api",
+    "longpoll"
   ],
   "author": "Mikhail Semin",
   "license": "MIT",
@@ -50,6 +45,6 @@
     "eslint-plugin-standard": "^3.0.1"
   },
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=8.3.0"
   }
 }
